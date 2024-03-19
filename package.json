@@ -91,13 +91,16 @@
     "to-regex-range": "^5.0.1",
     "ts-interface-checker": "^0.1.13",
     "util-deprecate": "^1.0.2",
+    "vite": "^5.1.6",
     "which": "^2.0.2",
     "wrap-ansi": "^8.1.0",
     "wrap-ansi-cjs": "^7.0.0",
     "yaml": "^2.4.1"
   },
   "scripts": {
-    "build": "npx tailwindcss -i ./main.css -o ./dist/output.css --watch"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "keywords": [],
   "author": "",
